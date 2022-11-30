@@ -153,7 +153,7 @@ class FylkerKommunerFull(BaseModel):
         None,
         description='Nummerering av fylke. Tekstverdi som må bestå av 2 tall. 03 er for eksempel gyldig, mens 3 er ikke gyldig.',
     )
-    kommuner: Optional[List[KomFull]] = None
+    kommuner: List[KomFull]
 
 
 class AlleFylkerKommunerFull(BaseModel):
