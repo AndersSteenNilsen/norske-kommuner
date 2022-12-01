@@ -21,6 +21,7 @@ pytest = "^7.2.0"
 [tool.poetry.group.dev.dependencies]
 datamodel-code-generator = "^0.14.0"
 pre-commit = "^2.20.0"
+black = "^22.10.0"
 
 [tool.black]
 skip-string-normalization = true
