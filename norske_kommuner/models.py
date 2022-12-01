@@ -131,7 +131,7 @@ class KomFull(BaseModel):
         description='Nummerering av fylke. Tekstverdi som må bestå av 2 tall. 03 er for eksempel gyldig, mens 3 er ikke gyldig.',
     )
     gyldigeNavn: Optional[List[NavnFull]] = None
-    kommunenavn: Optional[str] = None
+    kommunenavn: str
     kommunenavnNorsk: Optional[str] = None
     kommunenummer: Optional[str] = Field(
         None,
@@ -139,6 +139,9 @@ class KomFull(BaseModel):
     )
     punktIOmrade: Optional[GeoJson] = None
     samiskForvaltningsomrade: Optional[bool] = None
+
+    def __str__(self):
+        return self.kommunenavn
 
 
 class NavnSokKommune(BaseModel):

@@ -1,7 +1,6 @@
 from norske_kommuner.models import FylkerKommunerFull, KomFull
-from collections import namedtuple, Counter
+from collections import Counter
 import json
-from pydantic import create_model
 
 API_URL = 'https://ws.geonorge.no/kommuneinfo/v1/'
 
