@@ -2,7 +2,7 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/AndersSteenNilsen/norske-kommuner/main.svg)](https://results.pre-commit.ci/latest/github/AndersSteenNilsen/norske-kommuner/main)
 ![PyPI - Status](https://img.shields.io/pypi/status/norske-kommuner)
-[![Download Stats](https://img.shields.io/pypi/dm/norske-kommuner)](https://pypistats.org/packages/poetry)
+[![Download Stats](https://img.shields.io/pypi/dm/norske-kommuner)](https://pypistats.org/packages/norske-kommuner)
 
 Pydantic models on Norwegian municipalities (Norske kommuner).
 
