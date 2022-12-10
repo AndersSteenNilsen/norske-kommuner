@@ -160,4 +160,4 @@ class FylkerKommunerFull(BaseModel):
 
 
 class AlleFylkerKommunerFull(BaseModel):
-    __root__: list[FylkerKommunerFull]
+    __root__: List[FylkerKommunerFull]
