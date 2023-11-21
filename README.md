@@ -16,6 +16,9 @@ for kommune in kommuner.values():
 #  Get kommunenummer
 print (kommuner['Stavanger'].kommunenummer) # 1103
 
+#  Get org_number
+print (kommuner['Stavanger'].org_nr) # 964965226
+
 # Can also get kommune by kommunenr
 print(get_kommune_by_nr('1103')) #  Stavanger
 
@@ -77,3 +80,4 @@ Last line will output
 ```
 
 >Uses data and models from "[Åpent API fra Kartverket for administrative enheter](https://ws.geonorge.no/kommuneinfo/v1/)"
+> And "[SSB](https://www.ssb.no/klass/klassifikasjoner/582/korrespondanser/1236)"
