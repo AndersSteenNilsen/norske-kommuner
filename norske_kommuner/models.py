@@ -703,9 +703,9 @@ class Paths(BaseModel):
     field_kommuner__kommunenummer_: FieldKommunerKommunenummer = Field(
         ..., alias='/kommuner/{kommunenummer}'
     )
-    field_kommuner__kommunenummer__nabokommuner: FieldKommunerKommunenummerNabokommuner = Field(
-        ..., alias='/kommuner/{kommunenummer}/nabokommuner'
-    )
+    field_kommuner__kommunenummer__nabokommuner: (
+        FieldKommunerKommunenummerNabokommuner
+    ) = Field(..., alias='/kommuner/{kommunenummer}/nabokommuner')
     field_kommuner__kommunenummer__omrade: FieldKommunerKommunenummerOmrade = Field(
         ..., alias='/kommuner/{kommunenummer}/omrade'
     )
